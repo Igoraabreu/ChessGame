@@ -1,10 +1,10 @@
 # ChessGame
 ---
 
-This is a simple chess game, done in console mode with C#, an educational project of a learning course.
+Este é um simples jogo de xadrez, feito em modo console com C#, é um projeto de aprendizado.
 
-# What I Learned
+# O que eu aprendi?
 ---
-* Object-Oriented Programming in practice
-* A deeper look in C#
-* Programing logic
+* Programação Orientada à Objeto na prática
+* Um olhar mais avançado do C#
+* Lógica de Programação
