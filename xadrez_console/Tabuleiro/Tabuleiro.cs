@@ -16,5 +16,11 @@ namespace tabuleiro
             Colunas = colunas;
             Pecas = new Peca[Linhas, Colunas];
         }
+
+        // metodo para acesso de uma peça
+        public Peca Peca (int linha, int coluna)
+        {
+            return Pecas[linha, coluna]; 
+        }
     }
 }
