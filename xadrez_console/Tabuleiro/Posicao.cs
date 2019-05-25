@@ -15,6 +15,13 @@ namespace tabuleiro
             Coluna = coluna;
         }
 
+        // esse metodo serve para definir os valores da posicao
+        public void DefinirValores (int linha, int coluna)
+        {
+            Linha = linha;
+            Coluna = coluna;
+        }
+
         public override string ToString()
         {
             return Linha + ", " + Coluna;
