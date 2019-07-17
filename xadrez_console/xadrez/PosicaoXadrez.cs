@@ -16,7 +16,7 @@ namespace xadrez
             Linha = linha;
         }
 
-        public Posicao toPosicao()
+        public Posicao ToPosicao()
         {
             return new Posicao(8 - Linha, Coluna - 'a');
             // o 'a' char tem valor de 97 na tabela ASCII e assim é possivel fazer a operação Coluna - 'a' para definir a coluna na matriz
