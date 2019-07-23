@@ -37,7 +37,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Linha = pos.Linha - 1;
+                pos.DefinirValores(pos.Linha, pos.Coluna - 1);
             }
 
             // direita
@@ -49,7 +49,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Linha = pos.Linha + 1;
+                pos.DefinirValores(pos.Linha, pos.Coluna + 1);
             }
 
             // acima
@@ -61,7 +61,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Coluna = pos.Coluna + 1;
+                pos.DefinirValores(pos.Linha - 1, pos.Coluna);
             }
 
             // abaixo
@@ -73,7 +73,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Coluna = pos.Coluna - 1;
+                pos.DefinirValores(pos.Linha + 1, pos.Coluna);
             }
 
             // NO
@@ -85,7 +85,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Linha = pos.Linha - 1;
+                pos.DefinirValores(pos.Linha - 1, pos.Coluna - 1);
             }
 
             // NE
@@ -97,7 +97,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Linha = pos.Linha + 1;
+                pos.DefinirValores(pos.Linha - 1, pos.Coluna + 1);
             }
 
             // SE
@@ -109,7 +109,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Coluna = pos.Coluna + 1;
+                pos.DefinirValores(pos.Linha + 1, pos.Coluna + 1);
             }
 
             // SO
@@ -121,7 +121,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.Coluna = pos.Coluna - 1;
+                pos.DefinirValores(pos.Linha + 1, pos.Coluna - 1);
             }
 
             return mat;
